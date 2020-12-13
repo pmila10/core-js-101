@@ -30,9 +30,18 @@
  */
 function willYouMarryMe(/* isPositiveAnswer */) {
   throw new Error('Not implemented');
+  // const p1 = new Promise((resolve, reject) => {
+  //   if (isPositiveAnswer === true) {
+  //     resolve('Hooray!!! She said "Yes"!');
+  //   } else {
+  //     resolve('Oh no, she said "No".');
+  //   }
+  //   const answer = new Error('Error: Wrong parameter is passed! Ask her again.');
+  //   reject(answer);
+  // });
+  // p1.catch(() => {
+  // });
 }
-
-
 /**
  * Return Promise object that should be resolved with array containing plain values.
  * Function receive an array of Promise objects.
